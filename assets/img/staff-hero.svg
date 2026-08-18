@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" width="1400" height="700" role="img" aria-label="УСЛУГИ ПЕРСОНАЛА">
+  <defs>
+    <linearGradient id="g52" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1E23"/>
+      <stop offset="0.55" stop-color="#16161A"/>
+      <stop offset="1" stop-color="#C4633F" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="r52" cx="0.7" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#E8A33D" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#E8A33D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="n52">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="52" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.035 0"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="700" fill="url(#g52)"/>
+  <rect width="1400" height="700" fill="url(#r52)"/>
+  <rect width="1400" height="700" filter="url(#n52)"/>
+  <g transform="translate(600.0,236.0)"><g fill="none" stroke="#FBF7F2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><circle cx="100" cy="70" r="26"/><path d="M50 160 c0-33 22-54 50-54 s50 21 50 54"/></g></g>
+  <text x="50%" y="458.0" text-anchor="middle" fill="#FBF7F2" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="33" letter-spacing="0.5">УСЛУГИ ПЕРСОНАЛА</text>
+  <text x="50%" y="480.0" text-anchor="middle" fill="#E8A33D" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="19" letter-spacing="2">ИНЖЕНЕРЫ, ТЕХНИКИ, ДИДЖЕИ</text>
+  <rect x="1" y="1" width="1398" height="698" fill="none" stroke="#2A2A31" stroke-width="1"/>
+</svg>

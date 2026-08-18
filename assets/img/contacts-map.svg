@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="СКЛАД BASSLIGHT PRODUCTION">
+  <defs>
+    <linearGradient id="g80" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1E23"/>
+      <stop offset="0.55" stop-color="#16161A"/>
+      <stop offset="1" stop-color="#C4633F" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="r80" cx="0.7" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#E8A33D" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#E8A33D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="n80">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="80" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.035 0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="500" fill="url(#g80)"/>
+  <rect width="1200" height="500" fill="url(#r80)"/>
+  <rect width="1200" height="500" filter="url(#n80)"/>
+  <g transform="translate(500.0,136.0)"><g fill="none" stroke="#FBF7F2" stroke-width="4" stroke-linejoin="round" opacity="0.85"><path d="M100 30 C65 30 45 55 45 85 c0 40 55 90 55 90 s55-50 55-90 c0-30-20-55-55-55 Z"/><circle cx="100" cy="85" r="18"/></g></g>
+  <text x="50%" y="358.0" text-anchor="middle" fill="#FBF7F2" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28" letter-spacing="0.5">СКЛАД BASSLIGHT PRODUCTION</text>
+  <text x="50%" y="380.0" text-anchor="middle" fill="#E8A33D" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="16" letter-spacing="2">МИНСК</text>
+  <rect x="1" y="1" width="1198" height="498" fill="none" stroke="#2A2A31" stroke-width="1"/>
+</svg>

@@ -1,0 +1,5 @@
+# PLACEHOLDER: замените https://basslight.by на реальный домен после деплоя
+User-agent: *
+Allow: /
+
+Sitemap: https://basslight.by/sitemap.xml

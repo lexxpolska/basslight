@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="АРЕНДА ОБОРУДОВАНИЯ">
+  <defs>
+    <linearGradient id="g15" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1E23"/>
+      <stop offset="0.55" stop-color="#16161A"/>
+      <stop offset="1" stop-color="#C4633F" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="r15" cx="0.7" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#E8A33D" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#E8A33D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="n15">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="15" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.035 0"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#g15)"/>
+  <rect width="800" height="600" fill="url(#r15)"/>
+  <rect width="800" height="600" filter="url(#n15)"/>
+  <g transform="translate(300.0,186.0)"><g fill="none" stroke="#FBF7F2" stroke-width="4" stroke-linejoin="round" opacity="0.85"><rect x="45" y="70" width="110" height="80" rx="8"/><path d="M80 70 v-16 h40 v16"/><path d="M45 105 h110"/></g></g>
+  <text x="50%" y="408.0" text-anchor="middle" fill="#FBF7F2" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" letter-spacing="0.5">АРЕНДА ОБОРУДОВАНИЯ</text>
+  <text x="50%" y="430.0" text-anchor="middle" fill="#E8A33D" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" letter-spacing="2">6 КАТЕГОРИЙ ТЕХНИКИ</text>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#2A2A31" stroke-width="1"/>
+</svg>
